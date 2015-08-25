@@ -1,0 +1,85 @@
+html, body, h1, h2, h3, ul, ol, li, p, a {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    font: inherit;
+    font-size: 100%;
+}
+body, button {
+    background-color: #00b2b2;
+    color: #ffffff;
+    margin: 30px;
+    font-family: 'Ubuntu' sans-serif;
+}
+h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+}
+h2 {
+    text-align: center;
+    font-size: 20px;
+}
+p {
+    text-align: center;
+}
+#header {
+    background-color: black;
+    border-radius: 25px;
+    box-shadow: 0 5px 5px;
+    margin-bottom: 20px;
+}
+#header h2 {
+    padding-bottom: 5px;
+}
+#header p {
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+#skills {
+    background-color: black;
+    border-radius: 25px;
+    box-shadow: 0 5px 5px;
+}
+#skills li {
+    text-align: center;
+    list-style: none;
+    padding-bottom: 3px;
+}
+#skills h2 {
+    margin: 5px;
+}
+#work-experience {
+    background-color: #A7A7B3;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+#thanks {
+    padding: 15px;
+    font-size: 30px;
+}
+.job1 li, .job2 li, .job3 li, .job4 li, .job5 li {
+    margin-left: 30;
+    padding: 5px;
+}
+.job1, .job2, .job3, .job4, .job5 {
+    background-color: black;
+    width: 800;
+    margin: 20px auto 0 auto;
+}
+.job1 {
+    border-radius: 25px 25px 0 0;
+}
+.job5 {
+    border-radius: 0 0 25px 25px;
+}
+.display {
+    display: block;
+    margin: 10px auto 10px auto;
+}
+.all {
+    display: none;
+}
+button {
+    display: block;
+    margin: auto;
